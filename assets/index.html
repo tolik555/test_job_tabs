@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="media/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+    <body>
+
+    <dl class="tabs">
+        <dt class="active">Проверка</dt>
+        <dd class="active">
+            <div class="results">
+                <div><span>Правильных ответов: <strong name="trueAnsver">0</strong></span></div>
+                <div><span>Ошибок: <strong name="falseAnsver">0</strong></span></div>
+            </div>
+            <div class="question">
+                <span id="question" ></span>
+                <input type="text" id="inp" name="inp" autofocus>
+            </div>
+        </dd>
+        <dt>Установка</dt>
+        <dd>
+            <div class="evenly_in_line">
+                <span><input id="addition" type="checkbox" checked>Сложение</span>
+                <span><input id="subtraction" type="checkbox" checked>Вычитание</span>
+                <span><input id="multiplication" type="checkbox" checked>Умножение</span>
+                <span><input id="division" type="checkbox" checked>Деление</span>
+            </div>
+        </dd>
+    </dl>
+
+    <script type="text/javascript" src="media/js/tab.js"></script>
+    <script type="text/javascript" src="media/js/math_test.js"></script>
+    </body>
+</html>
